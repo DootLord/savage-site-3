@@ -10,6 +10,7 @@ import '@fontsource/montserrat/700.css';
 import Grid2 from '@mui/material/Grid2';
 import Header from './components/header/header';
 import Showcase from './components/showcase/showcase';
+import Stats from './components/stats/stats';
 
 function App() {
   const showcaseURL = "https://www.youtube.com/embed/zjRJw034Nqs?controls=0";
@@ -22,6 +23,10 @@ function App() {
 
       <Grid2 size={12}>
         <Showcase url={showcaseURL} />
+      </Grid2>
+
+      <Grid2 size={12}>
+        <Stats/>
       </Grid2>
 
     </Grid2>
